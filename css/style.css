@@ -1400,3 +1400,13 @@ h6 {
     padding: 100px 0 20px 0;
   }
 }
+
+.message-content{
+  position: relative;
+  left: 20px;
+}
+
+.quote-author{
+  position: inherit;
+  left: 20px;
+}
