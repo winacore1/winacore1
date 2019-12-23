@@ -1402,11 +1402,24 @@ h6 {
 }
 
 .message-content{
+  margin-top: 100px;
+  margin-bottom: 250px;
   position: relative;
-  left: 20px;
 }
 
 .quote-author{
-  position: inherit;
-  left: 20px;
+  position: relative;
+  text-align: right;
+  left: 30%;
+}
+
+.about-title{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#message {
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+  padding: 60px 0;
+  overflow: hidden;
 }
