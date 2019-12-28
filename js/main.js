@@ -1,6 +1,12 @@
 (function ($) {
   "use strict";
 
+  $('.pop').on('click', function() {
+    debugger;
+    $('.imagepreview').attr('src', $(this).find('img').attr('src'));
+    $('#imagemodal').modal('show');   
+  });  
+
   // Preloader (if the #preloader div exists)
   $(window).on('load', function () {
     if ($('#preloader').length) {
