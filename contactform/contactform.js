@@ -100,7 +100,7 @@ jQuery(document).ready(function($) {
       data: str,
       success: function(msg) {
         // alert(msg);
-        if (msg == 'success') {
+        if (msg && msg.trim() == 'success') {
           $("#sendmessage").addClass("show");
           $("#errormessage").removeClass("show");
           $('.contactForm').find("input, textarea").val("");
