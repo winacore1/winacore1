@@ -1,3 +1,4 @@
+
 <?php
 
 $errorMSG = "";
@@ -33,7 +34,7 @@ if (empty($_POST["message"])) {
 
 //Add your email here
 $EmailTo = "enquiries@winacore.com";
-$Subject = "New Message Received";
+$Subject = "General Query Via Home Page";
 
 // prepare email body text
 $Body = "";
@@ -44,7 +45,7 @@ $Body .= "Email: ";
 $Body .= $email;
 $Body .= "\n";
 $Body .= "Subject: ";
-$Body .= $subject;
+$Body .= $msg_subject;
 $Body .= "\n";
 $Body .= "Message: ";
 $Body .= $message;
