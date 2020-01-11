@@ -1529,3 +1529,23 @@ h6 {
     font-style: italic;
     font-size: x-large;
 }
+
+.filter-green{
+    filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);
+}
+
+.filter-blue{
+    filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(160deg) brightness(118%) contrast(119%);
+}
+
+.filter-yellow{
+    filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(0deg) brightness(150%) contrast(119%);
+}
+
+.filter-red {
+    filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(330deg) brightness(90%) contrast(119%)
+}
+
+.filter-color {
+    filter: invert(48%) sepia(79%) saturate(2443%) hue-rotate(215deg) brightness(77%) contrast(119%)
+}
