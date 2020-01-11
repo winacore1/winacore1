@@ -1,35 +1,6 @@
 (function ($) {
   "use strict";
 
-  $('.pop').on('click', function() {
-    debugger;
-    $('.imagepreview').attr('src', $(this).find('img').attr('src'));
-    $('#imagemodal').modal('show');   
-  });  
-
-  // Preloader (if the #preloader div exists)
-  $(window).on('load', function () {
-    if ($('#preloader').length) {
-      $('#preloader').delay(100).fadeOut('slow', function () {
-        $(this).remove();
-      });
-    }
-  });
-
-  // Back to top button
-  $(window).scroll(function() {
-    if ($(this).scrollTop() > 100) {
-      $('.back-to-top').fadeIn('slow');
-    } else {
-      $('.back-to-top').fadeOut('slow');
-    }
-  });
-  $('.back-to-top').click(function(){
-    $('html, body').animate({scrollTop : 0},1500, 'easeInOutExpo');
-    return false;
-  });
-
-  // Initiate the wowjs animation library
   new WOW().init();
 
   // Header scroll class
