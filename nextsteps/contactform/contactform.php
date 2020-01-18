@@ -33,7 +33,7 @@ if (empty($_POST["message"])) {
 
 //Add your email here
 $EmailTo = "enquiries@winacore.com";
-$Subject = "Query Via Next Steps Page";
+$Subject = "Next Steps Query";
 
 // prepare email body text
 $Body = "";

@@ -11,6 +11,12 @@
 #contact .form button[type="submit"] {
 	background: deepskyblue !important;
 }
-.section-header h3 {
+.section-header h3{
 	color: deepskyblue;
+}
+
+.heading-section h3 {
+    font-size: 26px;
+    font-weight: 600;
+    color: deepskyblue;
 }
