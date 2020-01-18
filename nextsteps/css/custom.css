@@ -3,3 +3,14 @@
 	font-family: "Open Sans", sans-serif;
 	font-style: italic;
 }
+
+#ionicon:before {
+	color: deepskyblue !important;
+}
+
+#contact .form button[type="submit"] {
+	background: deepskyblue !important;
+}
+.section-header h3 {
+	color: deepskyblue;
+}
