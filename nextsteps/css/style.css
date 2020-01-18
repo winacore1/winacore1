@@ -9130,7 +9130,7 @@ textarea.form-control {
     display: block; }
     .ftco-footer .ftco-footer-widget h2 {
       font-weight: normal;
-      color: #fff;
+      color: #00bfff;
       margin-bottom: 40px;
       font-size: 20px;
       font-weight: 600; }
@@ -9303,7 +9303,9 @@ textarea.form-control {
 
 .heading-section h2 {
   font-size: 34px;
-  font-weight: 600; }
+  font-weight: 600; 
+  color: deepskyblue;
+}
   @media (max-width: 767.98px) {
     .heading-section h2 {
       font-size: 28px; } }
@@ -9415,7 +9417,7 @@ textarea.form-control {
     opacity: 1; }
     .testimony-wrap .quote i {
       font-size: 40px;
-      color: #00bdaa; }
+      color: #00bfff; }
   .testimony-wrap .name {
     font-weight: 400;
     font-size: 18px;
@@ -9423,7 +9425,7 @@ textarea.form-control {
     color: #000000; }
   .testimony-wrap .position {
     font-size: 14px;
-    color: #00bdaa; }
+    color: #00bfff; }
 
 @media (max-width: 767.98px) {
   .about-image {
