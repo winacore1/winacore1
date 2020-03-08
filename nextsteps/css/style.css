@@ -9112,6 +9112,11 @@ textarea.form-control {
   padding: 7em 0;
   position: relative; }
 
+.associations-sec {
+  padding: 1em 0;
+  position: relative; 
+}
+
 .ftco-no-pt {
   padding-top: 0; }
 
