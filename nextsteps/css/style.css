@@ -9943,6 +9943,28 @@ textarea.form-control {
   animation: loader-dash 1.5s ease-in-out infinite;
   stroke-linecap: round; }
 
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: deepskyblue;
+    align-items: center;
+    align-content: space-between
+  }
+  
+  .flex-container > div {
+    background-color: deepskyblue;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+
+  .associations {
+    max-width: 100%;
+  }
+
+
 @-webkit-keyframes loader-rotate {
   100% {
     -webkit-transform: rotate(360deg);
