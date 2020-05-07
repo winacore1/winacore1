@@ -2411,7 +2411,8 @@ fieldset:disabled a.btn {
 .btn-outline-light {
   color: #f8f9fa;
   border-color: #f8f9fa; }
-  .btn-outline-light:hover {
+  .btn-outline-light:hover,
+  .btn-outline-light:focus {
     color: #212529;
     background-color: #f8f9fa;
     border-color: #f8f9fa; }
@@ -8499,13 +8500,13 @@ h1, h2, h3, h4, h5,
     right: -25px; }
   .owl-carousel.home-slider {
     position: relative;
-    height: 650px;
+    height: 600px;
     z-index: 0; }
     .owl-carousel.home-slider .slider-item {
       background-size: cover;
       background-repeat: no-repeat;
-      background-position: top center;
-      height: 650px;
+      background-position: center center;
+      height: 600px;
       position: relative;
       z-index: 0; }
       @media (max-width: 1199.98px) {
@@ -8520,7 +8521,7 @@ h1, h2, h3, h4, h5,
         background: #000000;
         opacity: .6; }
       .owl-carousel.home-slider .slider-item .slider-text {
-        height: 650px; }
+        height: 600px; }
         @media (max-width: 767.98px) {
           .owl-carousel.home-slider .slider-item .slider-text {
             text-align: center; } }
@@ -8607,7 +8608,7 @@ h1, h2, h3, h4, h5,
       text-align: center; }
       @media (min-width: 992px) {
         .owl-carousel.home-slider .owl-dots {
-          bottom: 130px; } }
+          bottom: 20px; } }
       .owl-carousel.home-slider .owl-dots .owl-dot {
         width: 10px;
         height: 10px;
@@ -9112,11 +9113,6 @@ textarea.form-control {
   padding: 7em 0;
   position: relative; }
 
-.associations-sec {
-  padding: 1em 0;
-  position: relative; 
-}
-
 .ftco-no-pt {
   padding-top: 0; }
 
@@ -9308,7 +9304,7 @@ textarea.form-control {
 
 .heading-section h2 {
   font-size: 34px;
-  font-weight: 600; 
+  font-weight: 600;
   color: deepskyblue;
 }
   @media (max-width: 767.98px) {
@@ -9340,7 +9336,7 @@ textarea.form-control {
   .testimony-section .owl-carousel {
     margin: 0; }
   .testimony-section .owl-carousel .owl-stage-outer {
-    padding-top: 4em;
+    padding-top: 2em;
     padding-bottom: 2em;
     position: relative; }
   .testimony-section .owl-nav {
@@ -9955,7 +9951,7 @@ textarea.form-control {
     align-items: center;
     align-content: space-between
   }
-  
+
   .flex-container > div {
     background-color: white;
     width: 100px;
@@ -9963,10 +9959,6 @@ textarea.form-control {
     text-align: center;
     line-height: 75px;
     font-size: 30px;
-  }
-
-  .associations {
-    max-width: 100%;
   }
 
 
