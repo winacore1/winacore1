@@ -1025,11 +1025,11 @@ h6 {
   overflow: hidden;
   background: #fff;
   height: 120px;
-  padding: 40px;
+  padding: 15px;
 }
 
 .associations .client-logo img {
-  max-width: 50%;
+  max-width: 65%;
   -webkit-filter: grayscale(100);
   filter: grayscale(100);
 }
