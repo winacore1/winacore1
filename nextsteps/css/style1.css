@@ -145,8 +145,8 @@ h6 {
 #header .logo img {
   padding: 0;
   margin: 0;
-  max-height: 60px;
-  margin-top: -8px;
+  max-height: 50px;
+  margin-top: -4px;
 }
 
 @media (max-width: 768px) {
@@ -168,7 +168,7 @@ h6 {
 }
 
 .header-social-links a:hover {
-  color: #009cea;
+  color: #59baff;
 }
 
 @media (max-width: 768px) {
@@ -204,7 +204,7 @@ h6 {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #009cea;
+  color: #59baff;
   text-decoration: none;
 }
 
@@ -241,7 +241,7 @@ h6 {
 }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
-  color: #009cea;
+  color: #59baff;
 }
 
 .nav-menu .drop-down > a:after {
@@ -301,7 +301,7 @@ h6 {
 }
 
 .mobile-nav-toggle i {
-  color: #009cea;
+  color: #59baff;
 }
 
 .mobile-nav {
@@ -336,7 +336,7 @@ h6 {
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #009cea;
+  color: #59baff;
   text-decoration: none;
 }
 
