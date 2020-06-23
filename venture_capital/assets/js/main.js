@@ -113,7 +113,7 @@
     }
   });
 
-  $('.back-to-top').click(function() {
+  $('.back-to-top, .head').click(function() {
     $('html, body').animate({
       scrollTop: 0
     }, 1500, 'easeInOutExpo', function() {
