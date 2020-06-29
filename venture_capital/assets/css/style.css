@@ -11,7 +11,7 @@ a {
 }
 
 a:hover {
-  color: #a7cd74;
+  color: #0561c7;
   text-decoration: none;
 }
 
@@ -60,7 +60,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top i:hover {
-  background: #7aa93c;
+  background: #0561c7;
   color: #fff;
 }
 
@@ -1227,8 +1227,8 @@ section {
 }
 
 .pricing .recommended .btn-buy:hover {
-  background: #7aa93c;
-  border-color: #7aa93c;
+  background: #0561c7;
+  border-color: #0561c7;
 }
 
 .pricing .recommended-badge {
@@ -1252,7 +1252,7 @@ section {
 }
 
 .faq .section-title h2 {
-  background: #e9f3dd;
+  background: #e1efff;
 }
 
 .faq .faq-list {
@@ -1291,7 +1291,7 @@ section {
   position: absolute;
   right: 0;
   left: 20px;
-  color: #cbe1ac;
+  color: #a3ceff;
 }
 
 .faq .faq-list .icon-show, .faq .faq-list .icon-close {
@@ -1457,7 +1457,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #7aa93c;
+  background: #0561c7;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1687,7 +1687,7 @@ section {
 }
 
 #footer .footer-top .footer-newsletter form input[type="submit"]:hover {
-  background: #75a239;
+  background: #0561c7;
 }
 
 #footer .footer-top .social-links {
@@ -1710,7 +1710,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #75a239;
+  background: #0561c7;
   color: #fff;
   text-decoration: none;
 }
